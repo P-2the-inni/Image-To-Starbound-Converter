@@ -2,6 +2,11 @@
 
 ![Readme Icon](icon.png)
 
+## Installing 
+
+Download the fles and copy and paste the "imageBlock" folder to your mods folder (`/Starbound/mods/`).
+When browsing your folder it should look like 
+
 ## Description
 
 This mod contains the tools needed to convert images into placeable blocks ingame, the **.exe** converts into ingame format and the **item** allows you to place it ingame.
