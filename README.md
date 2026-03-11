@@ -27,15 +27,15 @@ On a base install the .exe will be located inside your mods folder, if for whate
 
 By default the exe is limited to images no larger than ~20000 pixels but I may change this in the future, this limit is primarily here just to avoid pasting images larger than the screen but I am on a small monitor, so for people with larger screens this limit might be too small.<br>
 
-## **Disclaimer**
+## **Disclaimer / Warnings**
 
-I **do not** take any responsibility for any problems caused from this mod, I recommend **making a backup** of any world files you intend to place converted builds inside of prior to pasting any builds.<br>
-During the testing phase of this item I very occasionally ran into an issue where certain pasted builds would break my game and i had to delete the world file and start over.<br>
-I did not encounter this bug at all on the current build of the problem, i am simply stating this for the sake of transparency, if you dont want to have problems, back up your stuff.<br>
+I **do not** take any responsibility for any problems caused from this mod, I recommend **making a backup** of any world files you intend to place converted builds on prior to pasting any builds.<br>
+During the testing phase of this item I **very** occasionally ran into an issue where certain pasted builds would crash my game and I had to delete the world file and start over.<br>
+I did not encounter this bug at all on the current build of the problem, I am simply stating this for the sake of transparency, if you dont want to have problems, back up your stuff.<br>
 
-Also when pasting, as a general rule of thumb, I would not paste images larger than your screen as this can lead to some buggy Starbound moments/lag.<br>
+Also when pasting, as a general rule of thumb, I would not paste images larger than your screen as this can lead to lags / crashes and just general Starbound buggy interactions (typical).<br>
 
-## Guide on how to use
+## How to use the mod 
 
 ### Spawning the item
 
