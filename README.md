@@ -40,7 +40,7 @@ To do this you need to load onto your character, make sure you are in admin mode
 ![Readme Icon](interfacePreview.png)
 
 To use the Image to Starbound Converter, browse to `/mods/imageBlock/imageBlock/ImageToStarbound.exe` and launch the program.
-From here you can drag and drop any `.png/.jpg/.jpeg` files you wish to convert.
+From here you can drag and drop any `.png / .jpg / .jpeg` files you wish to convert.
 Once you have selected the image you wish to convert, select your desired settings (*guide on settings below*) and click the "`[Generate]`" button.
 
 The output will get saved to `/mods/imageBlock/imageBlock/imageData.lua`.
