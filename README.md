@@ -4,6 +4,7 @@
 
 Please let me know of any suggestions / bugs.<br>
 This is v1.0.0 so do not expect perfection!<br>
+Currently this only works for Windows (x64) but if people request, I can update it to work on other OS.<br>
 
 ## Installing 
 
