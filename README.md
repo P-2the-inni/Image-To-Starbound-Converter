@@ -6,6 +6,7 @@
 
 Download the fles and copy and paste the "imageBlock" folder to your mods folder (`/Starbound/mods/`).
 When browsing your folder it should look like:
+
 ![Readme Icon](stupidityCheck.png)
 
 
