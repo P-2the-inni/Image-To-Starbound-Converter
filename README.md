@@ -1,2 +1,3 @@
-# Image-To-Starbound-Converter
-converts images into blocks in starbound
+# Image to Starbound Converter
+
+![Readme Icon](icon.png)
