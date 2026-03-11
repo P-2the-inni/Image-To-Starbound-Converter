@@ -1,0 +1,10 @@
+{
+  "version" : "1.0.0",
+  "author" : "P_2the_inni",
+  "tags" : "In-Game Tools",
+  "description" : "This mod contains the pasting tool for converted builds as an item, spawnable from a recipe when in /admin mode, and also the .exe used to convert images into pastable builds.",
+  "name" : "Image to Starbound Converter",
+  "friendlyName" : "Image to Starbound Converter",
+  "priority" : 1234,
+  "link" : "https://github.com/P-2the-inni/Image-To-Starbound-Converter"
+}

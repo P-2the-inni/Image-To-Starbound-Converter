@@ -1,0 +1,35 @@
+{
+	"gui": {
+		"background": {
+			"zlevel": -1,
+			"type": "background",
+			"fileBody": "/imageBlock/interface/images/background.png",
+			"fileFooter": "/imageBlock/interface/images/header.png?flipy",
+			"fileHeader": "/imageBlock/interface/images/header.png"
+		},
+		"foregroundButton" : {
+			"type" : "button",
+			"base" : "/imageBlock/interface/images/foregroundButton.png",
+			"hover" : "/imageBlock/interface/images/foregroundButton.png?fade=fff=0.1",
+			"pressed" : "/imageBlock/interface/images/foregroundButton.png?fade=fff=0.2",
+			"callback" : "foregroundButton",
+			"position" : [32.5,8],
+			"pressedOffset" : [0,-1]
+		},
+		"backgroundButton" : {
+			"type" : "button",
+			"base" : "/imageBlock/interface/images/backgroundButton.png",
+			"hover" : "/imageBlock/interface/images/backgroundButton.png?fade=fff=0.1",
+			"pressed" : "/imageBlock/interface/images/backgroundButton.png?fade=fff=0.2",
+			"callback" : "backgroundButton",
+			"position" : [3,8],
+			"pressedOffset" : [0,-1]
+		}
+	},
+	
+	"scripts": ["/imageBlock/interface/interface.lua"],
+	"scriptWidgetCallbacks": [
+		"foregroundButton",
+		"backgroundButton"
+	]
+}
