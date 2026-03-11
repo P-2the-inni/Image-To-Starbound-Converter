@@ -37,7 +37,7 @@ Also when pasting, as a general rule of thumb, I would not paste images larger t
 
 ### Spawning the item
 
-Once you have downloaded the mod and put "imageBlock" in your mods folder, it should look like `/mods/imageBlock/imageBlock/...` (see figure above to make sure you did it right)<br>
+Once you have downloaded the mod and put "imageBlock" in your mods folder, it should look like `/mods/imageBlock/imageBlock/...` (check 'installing' section figure)<br>
 If you are not sure if it's in the right directory check your `starbound.log` and you should see "Root: Detected asset source named 'Image to Starbound Converter' at '..\mods\imageBlock'".<br>
 
 Once the mod is successfully installed, you need to spawn the item.<br>
