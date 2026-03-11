@@ -3,8 +3,9 @@
 ![Readme Icon](icon.png)
 
 Please let me know of any suggestions / bugs, I think bugs can be reported using the "Issues tab" on this github page (I'm new to using Github)<br>
+Currently only works with vanilla blocks, may be possible to add modded blocks but it would be a lot of effort and I've got more important things to do with my time that I'm busy procrastinating, don't need more tasks that I could be doing instead of nothing<br>
 
-The initial version of this converter was written in Lua and converted to c++ for the purpose of distribution, some mistakes may have been made, this is v1.0.0 so do not expect perfection!<br>
+The initial version of this converter was written in Lua and converted to C++ for the purpose of distribution, some mistakes may have been made, this is v1.0.0 so do not expect perfection!<br>
 
 Currently this only works for Windows (x64) but if people request, I can update it to work on other OS.<br>
 If you don't trust the .exe, you don't have to have it in your Starbound folder (see below) and if you don't trust the .exe regardless of file location then just don't install my mod, go make ur own converter :)<br>
@@ -14,7 +15,7 @@ The item is multiplayer compatible, meaning you can use it in worlds with people
 
 ## Installing 
 
-Download the fles and copy and paste the "imageBlock" folder to your mods folder (`/Starbound/mods/...`).<br>
+Download the files and copy and paste the "imageBlock" folder to your mods folder (`/Starbound/mods/...`).<br>
 When browsing your folder it should look like:<br>
 
 ![Readme Icon](stupidityCheck.png)
@@ -22,16 +23,16 @@ When browsing your folder it should look like:<br>
 
 ## Description
 
-This mod contains the tools needed to convert images into placeable blocks ingame, the **.exe** converts into ingame format and the **item** allows you to place it ingame.<br>
+This mod contains the tools needed to convert images into placeable blocks in-game, the **.exe** converts into in-game format and the **item** allows you to place it in-game.<br>
 On a base install the .exe will be located inside your mods folder, if for whatever reason you don't want this, you can move it to anywhere on your pc and it will work the same, the output directory will be moved to be in the same location as the `.exe`, if you do decide to move it, you will need to copy the contents of "`imageData.lua`" to the `imageData.lua` inside of the item in your Starbound mod.<br>
 
-By default the exe is limited to images no larger than ~20000 pixels but I may change this in the future, this limit is primarily here just to avoid pasting images larger than the screen but I am on a small monitor, so for people with larger screens this limit might be too small.<br>
+By default the converter is limited to images no larger than ~20000 pixels but I may change this in the future, this limit is primarily here just to avoid pasting images larger than the screen but I am on a small monitor, so for people with larger screens this limit might be too small.<br>
 
 ## **Disclaimer / Warnings**
 
 I **do not** take any responsibility for any problems caused from this mod, I recommend **making a backup** of any world files you intend to place converted builds on prior to pasting any builds.<br>
 During the testing phase of this item I **very** occasionally ran into an issue where certain pasted builds would crash my game and I had to delete the world file and start over.<br>
-I did not encounter this bug at all on the current build of the problem, I am simply stating this for the sake of transparency, if you dont want to have problems, back up your stuff.<br>
+I did not encounter this bug at all on the current build of the problem, I am simply stating this for the sake of transparency, if you don't want to have problems, back up your stuff.<br>
 
 Also when pasting, as a general rule of thumb, I would not paste images larger than your screen as this can lead to lags / crashes and just general Starbound buggy interactions (typical).<br>
 
@@ -57,13 +58,13 @@ Once you have selected the image you wish to convert, select your desired settin
 If you have Hue enabled and are using a larger image please be patient, it is checking every pixel of your image against every painted version of every block, this takes time, on my device the longest I've seen it take was 8 seconds, if you're on a slower device or doing a max size this might be longer. <br>
 
 The output will get saved to `/mods/imageBlock/imageBlock/imageData.lua`.<br>
-From here all you need to do is type "/reload" if you are ingame or launch the game if you are not.<br>
+From here all you need to do is type "/reload" if you are in-game or launch the game if you are not.<br>
 From here you can simply hold the pasting tool, then an interface should appear with two buttons for either *foreground* paste or *background* paste.<br>
 Select the paste layer, and **left click** to paste.<br>
 
 ### Paint settings
 
-If you wish to have the output use painted blocks, tick the "Hue enabled" tick box, if you want more accurate paint to create a more accurate output decrease the slider to smaller values, this will also increase the time it takes to generate the output, inversely if you increaase the slider to larger values the paint will be less accurate, but faster to generate.<br>
+If you wish to have the output use painted blocks, tick the "Hue enabled" tick box, if you want more accurate paint to create a more accurate output decrease the slider to smaller values, this will also increase the time it takes to generate the output, inversely if you increase the slider to larger values the paint will be less accurate, but faster to generate.<br>
 
 ### Block settings
 
@@ -77,6 +78,6 @@ Currently there are no blocks affected by gravity regardless of settings but I m
 
   - The code is currently not perfect and optimisations are in the plan for the future, including simply better written code on the item itself, fast placing and faster generating.<br>
   - It currently is only working for Windows x64 but with enough request I might make it work for Linux or maybe even Mac if I'm feeling generous.<br>
-  - Considering making an ingame previewer for the blocks to be pasted with an option tickbox on the ingame item interface.<br>
-  - No gravity blocks invluded in the palette, might add them back if people want. <br>
+  - Considering making an in-game previewer for the blocks to be pasted with an option tickbox on the in-game item interface.<br>
+  - No gravity blocks included in the converter palette, might add them if people want. <br>
 
