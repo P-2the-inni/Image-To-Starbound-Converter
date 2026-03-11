@@ -3,10 +3,13 @@
 ![Readme Icon](icon.png)
 
 Please let me know of any suggestions / bugs, I think bugs can be reported using the "Issues tab" on this github page (I'm new to using Github)<br>
+
+The initial version of this converter was written in Lua and converted to c++ for the purpose of distribution, some mistakes may have been made, <br>
 This is v1.0.0 so do not expect perfection!<br>
+
 Currently this only works for Windows (x64) but if people request, I can update it to work on other OS.<br>
 If you don't trust the .exe, you don't have to have it in your Starbound folder (see below) and if you don't trust the .exe regardless of file location then just don't install my mod, go make ur own converter :)<br>
-The item is multiplayer compatible, meaning you can use it in worlds with people who don't have the mod installed.<br>
+The item is multiplayer compatible, meaning you can use it in worlds with people who don't have the mod installed, you can't give the item to people who don't have the mod installed and expect it to work though.<br>
 
 **Enjoy!**<br>
 
