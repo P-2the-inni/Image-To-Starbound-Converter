@@ -14,7 +14,7 @@ The item is multiplayer compatible, meaning you can use it in worlds with people
 
 ## Installing 
 
-Download the fles and copy and paste the "imageBlock" folder to your mods folder (`/Starbound/mods/`).<br>
+Download the fles and copy and paste the "imageBlock" folder to your mods folder (`/Starbound/mods/...`).<br>
 When browsing your folder it should look like:<br>
 
 ![Readme Icon](stupidityCheck.png)
