@@ -7,6 +7,8 @@ This is v1.0.0 so do not expect perfection!<br>
 Currently this only works for Windows (x64) but if people request, I can update it to work on other OS.<br>
 If you don't trust the .exe, you don't have to have it in your Starbound folder (see below) and if you don't trust the .exe regardless of file location then just don't install my mod, go make ur own converter :)<br>
 
+**Enjoy!**<br>
+
 ## Installing 
 
 Download the fles and copy and paste the "imageBlock" folder to your mods folder (`/Starbound/mods/`).<br>
@@ -54,8 +56,6 @@ The output will get saved to `/mods/imageBlock/imageBlock/imageData.lua`.<br>
 From here all you need to do is type "/reload" if you are ingame or launch the game if you are not.<br>
 From here you can simply hold the pasting tool, then an interface should appear with two buttons for either *foreground* paste or *background* paste.<br>
 Select the paste layer, and **left click** to paste.<br>
-
-Enjoy!<br>
 
 ### Paint settings
 
