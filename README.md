@@ -39,6 +39,8 @@ If you are not sure if it's in the right directory check your `starbound.log` an
 Once the mod is successfully installed, you need to spawn the item.<br>
 To do this you need to load onto your character, make sure you are in admin mode by typing "/admin", open the crafting menu and search for "BLOCK PASTER" and spawn it in, once its spawned you no longer need admin.<br>
 
+I have had experience with people telling me they dont see the item when they are in the crafting menu in admin, please make sure you are in admin mode and looking in the crafting menu, it should be obvious and if it's not then you can try use the json at `/mods/imageBlock/imageBlock/recipe.recipe` to make a spawn command or something, not sure why you would this would be required though.<br>
+
 ### Using the converter
 
 ![Readme Icon](interfacePreview.png)
