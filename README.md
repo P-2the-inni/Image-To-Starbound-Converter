@@ -52,6 +52,7 @@ I have had experience with people telling me they dont see the item when they ar
 To use the Image to Starbound Converter, browse to `/mods/imageBlock/imageBlock/ImageToStarbound.exe` and launch the program.<br>
 From here you can drag and drop any `.png / .jpg / .jpeg` files you wish to convert.<br>
 Once you have selected the image you wish to convert, select your desired settings (*guide on settings below*) and click the "`[Generate]`" button.<br>
+If you have Hue enabled and are using a larger image please be patient, it is checking every pixel of your image against every painted version of every block, this takes time, on my device the longest I've seen it take was 8 seconds, if you're on a slower device or doing a max size this might be longer. <br>
 
 The output will get saved to `/mods/imageBlock/imageBlock/imageData.lua`.<br>
 From here all you need to do is type "/reload" if you are ingame or launch the game if you are not.<br>
