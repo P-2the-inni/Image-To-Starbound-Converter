@@ -6,6 +6,7 @@
 
 	Made by P_2the_inni  
 	Version 1.0.0
+	Available at: https://github.com/P-2the-inni/Image-To-Starbound-Converter
 	
 	If u get missing dependancy errors on the .exe, try installing `Microsoft Visual C++ Redistributable`, this shouldn't be needed but idk
 	If ur on mac on linux then its probably not going to work so id just give up now if i were u
@@ -240,6 +241,7 @@ function update(dt, fireMode)
                 addMessage("Removing placeholder blocks...")
                 delay = 0.5
 				addMessage(("Completed %s blocks in %.2f seconds."):format(getBlockCount(), os.clock() - startTime))
+				animator.playSound("place")
 				breakTiles("foreground")
 				backBroken = true;
             elseif delay == 0 then
@@ -253,3 +255,4 @@ function update(dt, fireMode)
 		end
 	end
 end
+
