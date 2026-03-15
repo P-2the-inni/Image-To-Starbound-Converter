@@ -255,4 +255,3 @@ function update(dt, fireMode)
 		end
 	end
 end
-

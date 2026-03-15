@@ -38,11 +38,11 @@ function pasteBlocks2(first)
 --	end
 	if first then
 		for i, v in ipairs(placeList1) do
-			world.placeMaterial(v.pos, "foreground", v.block, v.hue or 0, true)
+			world.placeMaterial(v.pos, "foreground", v.block, math.max(0, v.hue or 0), true)
 		end
 	else
 		for i, v in ipairs(placeList2) do
-			world.placeMaterial(v.pos, "foreground", v.block, v.hue or 0, true)
+			world.placeMaterial(v.pos, "foreground", v.block, math.max(0, v.hue or 0), true)
 		end
 	end
 end
@@ -123,7 +123,7 @@ function placeBlocksBackgroundMode()
 		for y=1, toPaste.height do
 			if toPaste[x][y] then
 				if toPaste[x][y].block ~= "" then
-					world.placeMaterial(vec2.add({x,y}, pastePos), "background", toPaste[x][y].block, toPaste[x][y].hue or 0, true)
+					world.placeMaterial(vec2.add({x,y}, pastePos), "background", toPaste[x][y].block, math.max(0, toPaste[x][y].hue or 0), true)
 				end
 			else
 				world.placeMaterial(vec2.add({x,y}, pastePos), "background", "hazard")
