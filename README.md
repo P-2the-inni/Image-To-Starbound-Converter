@@ -4,7 +4,7 @@
 ![Readme Icon](icon.png)
 
 Please let me know of any suggestions / bugs, I think bugs can be reported using the "Issues tab" on this github page (I'm new to using Github)<br>
-Currently only works with vanilla blocks, it doesn't include gravity blocks or certain "buggy" blocks, may be possible to add modded blocks through patches or something simular but that would be quite tricky, might investigate that if requested.<br>
+Currently only works with vanilla blocks, it doesn't include gravity blocks or certain "buggy" blocks, may be possible to add modded blocks through patches or something similar but that would be quite tricky, might investigate that if requested.<br>
 
 The initial version of this converter was written in Lua then converted to C++ for the purpose of distribution, some mistakes may have been made, this is v1.0.0 so do not expect perfection!<br>
 
