@@ -6,7 +6,7 @@
 Please let me know of any suggestions / bugs, I think bugs can be reported using the "Issues tab" on this github page (I'm new to using Github)<br>
 Currently only works with vanilla blocks, it doesn't include gravity blocks or certain "buggy" blocks, may be possible to add modded blocks through patches or something simular but that would be quite tricky, might investigate that if requested.<br>
 
-The initial version of this converter was written in Lua and converted to C++ for the purpose of distribution, some mistakes may have been made, this is v1.0.0 so do not expect perfection!<br>
+The initial version of this converter was written in Lua then converted to C++ for the purpose of distribution, some mistakes may have been made, this is v1.0.0 so do not expect perfection!<br>
 
 Currently this only works for Windows (x64) but if people request, I can update it to work on other OS.<br>
 If you don't trust the .exe (there is .pdb included if u want to check), you don't have to have it in your Starbound folder (see below) and if you don't trust the .exe regardless of file location then just don't install my mod, go make ur own converter :)<br>
