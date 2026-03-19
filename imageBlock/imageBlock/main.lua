@@ -9,7 +9,7 @@
 	Available at: https://github.com/P-2the-inni/Image-To-Starbound-Converter
 	
 	If u get missing dependancy errors on the .exe, try installing `Microsoft Visual C++ Redistributable`, this shouldn't be needed but idk
-	If ur on mac on linux then its probably not going to work so id just give up now if i were u
+	If ur on mac or linux then its probably not going to work so id just give up now if i were u
 
 	Yes a lot of this code is questionable
 	This was an old project that I returned to
