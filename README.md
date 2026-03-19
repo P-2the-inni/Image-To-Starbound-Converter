@@ -41,30 +41,31 @@ Also when pasting, as a general rule of thumb, I would not paste images larger t
 ### Spawning the item
 
 Once you have downloaded the mod and put "imageBlock" in your mods folder, it should look like `/mods/imageBlock/imageBlock/...` (check 'installing' section figure)<br>
-If you are not sure if it's in the right directory check your `starbound.log` and you should see "Root: Detected asset source named 'Image to Starbound Converter' at '..\mods\imageBlock'".<br>
+If it's in the correct directory, check your `starbound.log` and you should see "Root: Detected asset source named 'Image to Starbound Converter' at '..\mods\imageBlock'".<br>
 
 Once the mod is successfully installed, you need to spawn the item.<br>
 To do this you need to load onto your character, make sure you are in admin mode by typing "/admin", open the crafting menu and search for "BLOCK PASTER" and spawn it in, once its spawned you no longer need admin.<br>
 
-I have had experience with people telling me they dont see the item when they are in the crafting menu in admin, please make sure you are in admin mode and looking in the crafting menu, it should be obvious and if it's not then you can try use the json at `/mods/imageBlock/imageBlock/recipe.recipe` to make a spawn command or something, not sure why you would this would be required though.<br>
+I have had experience with people telling me they dont see the item when they are in the crafting menu in admin, please make sure you are in admin mode and looking in the crafting menu, it should be obvious and if it's not then you can try use the json at `/mods/imageBlock/imageBlock/recipe.recipe` to make a spawn command or something, I don't to make a spawn command for something that works for everyone else but if enough people complain about something this basic then I'll idiot-proof it and add a spawn command.<br>
 
 ### Using the converter
 
 ![Readme Icon](interfacePreview.png)
 
-To use the Image to Starbound Converter, browse to `/mods/imageBlock/imageBlock/ImageToStarbound.exe` and launch the program.<br>
-From here you can drag and drop any `.png / .jpg / .jpeg` files you wish to convert.<br>
-Once you have selected the image you wish to convert, select your desired settings (*guide on settings below*) and click the "`[Generate]`" button.<br>
-If you have Hue enabled and are using a larger image please be patient, it is checking every pixel of your image against every painted version of every block, this takes time, on my device the longest I've seen it take was 8 seconds, if you're on a slower device or doing a max size this might be longer. <br>
+To use the Image to Starbound Converter, browse to `/mods/imageBlock/imageBlock/ImageToStarbound.exe` and launch the executable.<br>
+From here you can drag and drop any `.png / .jpg / .jpeg` files you want to convert.<br>
+
+Once you have selected the image you wish to convert, select your desired settings (**guide on settings below**) and click the "`[Generate]`" button.<br>
+If you have Hue enabled and are using a larger image please be patient, it is checking every pixel of your image against every painted version of every block, this takes time, on my device the longest I've seen it take was ~8 seconds, if you're on a slower device or doing a max input size, this might be longer. <br>
 
 The output will get saved to `/mods/imageBlock/imageBlock/imageData.lua`.<br>
-From here all you need to do is type "/reload" if you are in-game or launch the game if you are not.<br>
-From here you can simply hold the pasting tool, then an interface should appear with two buttons for either *foreground* paste or *background* paste.<br>
+From here all you need to do is type "/reload" (or "/hotreload" if supported on your game) if you are in-game, or launch the game if you are not.<br>
+From here you can simply hold the pasting tool, then an interface should appear with two buttons for either **foreground** paste or **background** paste.<br>
 Select the paste layer, and **left click** to paste.<br>
 
 ### Paint settings
 
-If you wish to have the output use painted blocks, tick the "Hue enabled" tick box, if you want more accurate paint to create a more accurate output decrease the slider to smaller values, this will also increase the time it takes to generate the output, inversely if you increase the slider to larger values the paint will be less accurate, but faster to generate.<br>
+If you wish to have the output use painted blocks, tick the "Hue enabled" tick box, if you want more accurate paint to create a more accurate output, decrease the slider to smaller values, this will also increase the time it takes to generate the output, inversely if you increase the slider to larger values the paint will be less accurate, but faster to generate.<br>
 
 ### Block settings
 
@@ -79,5 +80,5 @@ Currently there are no blocks affected by gravity regardless of settings but I m
   - The code is currently not perfect and optimisations are in the plan for the future, including simply better written code on the item itself, fast placing and faster generating.<br>
   - It currently is only working for Windows x64 but with enough request I might make it work for Linux or maybe even Mac if I'm feeling generous.<br>
   - Considering making an in-game previewer for the blocks to be pasted with an option tickbox on the in-game item interface.<br>
-  - No gravity blocks included in the converter palette, might add them if people want. <br>
+  - No gravity blocks included in the converter palette, might add them if people want (mentioned above). <br>
 
