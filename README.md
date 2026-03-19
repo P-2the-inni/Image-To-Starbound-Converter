@@ -32,7 +32,7 @@ By default the converter is limited to images no larger than ~20000 pixels but I
 ## **Disclaimer / Warnings**
 
 I **do not** take any responsibility for any problems caused from this mod, I recommend **making a backup** of any world files you intend to place converted builds on prior to pasting any builds.<br>
-During the testing phase of this item I **very** occasionally ran into an issue where certain pasted builds would crash my game and I had to delete the world file and start over, I did not encounter this bug at all on the current build of the program, I am simply stating this for the sake of transparency, if you want to be safe, back up your stuff.<br>
+During the testing phase of this item I **very** occasionally ran into an issue where certain pasted builds would crash my game and I had to delete the world file and start over, I did not encounter this bug at all on the C++ (current) build of the program, I am simply stating this for the sake of transparency, if you want to be safe, back up your stuff.<br>
 
 Also when pasting, as a general rule of thumb, I would not paste images larger than your screen as this can lead to lag / crashes and just general Starbound buggy interactions (typical).<br>
 
