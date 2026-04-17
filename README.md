@@ -3,6 +3,15 @@
 
 ![Readme Icon](icon.png)
 
+## **Disclaimer / Warnings**
+
+I **do not** take any responsibility for any problems caused from this mod, I recommend **making a backup** of any world files you intend to place converted builds on prior to pasting any builds.<br>
+During the testing phase of this item I **very** occasionally ran into an issue where certain pasted builds would crash my game and I had to delete the world file and start over, I did not encounter this bug at all on the C++ (current) build of the program, I am simply stating this for the sake of transparency, if you want to be safe, back up your stuff.<br>
+
+Also when pasting, as a general rule of thumb, I would not paste images larger than your screen as this can lead to lag / crashes and just general Starbound buggy interactions (typical).<br>
+
+## Intro
+
 Please let me know of any suggestions / bugs, I think bugs can be reported using the "Issues tab" on this github page (I'm new to using Github)<br>
 Currently only works with vanilla blocks, it doesn't include gravity blocks or certain "buggy" blocks, may be possible to add modded blocks through patches or something similar but that would be quite tricky, might investigate that if requested.<br>
 
@@ -28,13 +37,6 @@ This mod contains the tools needed to convert images into placeable blocks in-ga
 On a base install the .exe will be located inside your mods folder, if for whatever reason you don't want this, you can move it to anywhere on your pc and it will work the same, the output directory will be moved to be in the same location as the `.exe`, if you do decide to move it, you will need to copy the contents of "`imageData.lua`" to the `imageData.lua` inside of the item in your Starbound mod.<br>
 
 By default the converter is limited to images no larger than ~20000 pixels but I may change this in the future, this limit is primarily here just to avoid pasting images larger than the screen but I am on a small monitor, so for people with larger screens this limit might be too small.<br>
-
-## **Disclaimer / Warnings**
-
-I **do not** take any responsibility for any problems caused from this mod, I recommend **making a backup** of any world files you intend to place converted builds on prior to pasting any builds.<br>
-During the testing phase of this item I **very** occasionally ran into an issue where certain pasted builds would crash my game and I had to delete the world file and start over, I did not encounter this bug at all on the C++ (current) build of the program, I am simply stating this for the sake of transparency, if you want to be safe, back up your stuff.<br>
-
-Also when pasting, as a general rule of thumb, I would not paste images larger than your screen as this can lead to lag / crashes and just general Starbound buggy interactions (typical).<br>
 
 ## How to use the mod 
 
