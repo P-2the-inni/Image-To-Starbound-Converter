@@ -62,6 +62,8 @@ If you have Hue enabled and are using a larger image please be patient, it is ch
 
 The output will get saved to `/mods/imageBlock/imageBlock/imageData.lua`.<br>
 From here all you need to do is type "/reload" (or "/hotreload" if supported on your game) if you are in-game, or launch the game if you are not.<br>
+I recently encountered a bug for the first time where the .exe wasn't editing the `imageData.lua` file, I fixed this by deleting the file then generating it again, no idea what caused this and haven't encountered it since.<br>
+
 From here you can simply hold the pasting tool, then an interface should appear with two buttons for either **foreground** paste or **background** paste.<br>
 Select the paste layer, and **left click** to paste.<br>
 
