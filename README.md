@@ -43,12 +43,12 @@ By default the converter is limited to images no larger than ~20000 pixels but I
 ### Spawning the item
 
 Once you have downloaded the mod and put "imageBlock" in your mods folder, it should look like `/mods/imageBlock/imageBlock/...` (check 'installing' section figure)<br>
-If it's in the correct directory, check your `starbound.log` and you should see "Root: Detected asset source named 'Image to Starbound Converter' at '..\mods\imageBlock'".<br>
+If it's in the correct directory, check your `starbound.log` and you should see "Root: Detected asset source named 'Image to Starbound Converter' at `..\mods\imageBlock`.<br>
 
 Once the mod is successfully installed, you need to spawn the item.<br>
 To do this you need to load onto your character, make sure you are in admin mode by typing "/admin", open the crafting menu and search for "BLOCK PASTER" and spawn it in, once its spawned you no longer need admin.<br>
 
-I have had experience with people telling me they dont see the item when they are in the crafting menu in admin, please make sure you are in admin mode and looking in the crafting menu, it should be obvious and if it's not then you can try use the json at `/mods/imageBlock/imageBlock/recipe.recipe` to make a spawn command or something, I don't to make a spawn command for something that works for everyone else but if enough people complain about something this basic then I'll idiot-proof it and add a spawn command.<br>
+I have had experience with people telling me they dont see the item when they are in the crafting menu in admin, please make sure you are in admin mode and looking in the crafting menu, it should be obvious and if it's not then you can try use the json at `/mods/imageBlock/imageBlock/recipe.recipe` to make a spawn command or something, I don't plan to make a spawn command for something that works for everyone else but if enough people complain about something this basic then I'll idiot-proof it and add a spawn command.<br>
 
 ### Using the converter
 
