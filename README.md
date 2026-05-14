@@ -10,6 +10,8 @@ During the testing phase of this item I **very** occasionally ran into an issue 
 
 Also when pasting, as a general rule of thumb, I would not paste images larger than your screen as this can lead to lag / crashes and just general Starbound buggy interactions (typical).<br>
 
+**If you have any problems please check this readme before reporting any issues, I've tried to make it as obvious as possible here**<br>
+
 ## Intro
 
 Please let me know of any suggestions / bugs, I think bugs can be reported using the "Issues tab" on this github page (I'm new to using Github)<br>
