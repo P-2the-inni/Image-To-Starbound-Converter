@@ -5,7 +5,7 @@
 	///////////////////////////////////
 
 	Made by P_2the_inni  
-	Version 1.0.0
+	Version 1.0.1
 	Available at: https://github.com/P-2the-inni/Image-To-Starbound-Converter
 	
 	If u get missing dependancy errors on the .exe, try installing `Microsoft Visual C++ Redistributable`, this shouldn't be needed but idk
