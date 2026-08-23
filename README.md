@@ -1,4 +1,4 @@
-# Image to Starbound Converter (1.0.1)
+# Image to Starbound Converter (v1.0.1)
 (Windows x64 only *for now*)
 
 ![Readme Icon](icon.png)
