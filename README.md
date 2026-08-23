@@ -95,4 +95,5 @@ Currently there are no blocks affected by gravity regardless of settings but I m
 
 ### v1.0.1
   - Moved generate to separate thread to fix window freezing
+  - Improved header changing for better clarity
 
