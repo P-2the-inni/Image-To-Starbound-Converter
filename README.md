@@ -87,6 +87,8 @@ Currently there are no blocks affected by gravity regardless of settings but I m
   - It currently is only working for Windows x64 but with enough request I might make it work for Linux or maybe even Mac if I'm feeling generous.<br>
   - Considering making an in-game previewer for the blocks to be pasted with an option tickbox on the in-game item interface.<br>
   - No gravity blocks included in the converter palette, might add them if people want (mentioned above). <br>
+  - Might add an option for the paste tool to control how quickly it places. <br>
+  - Considering text particles for each of the paste stages. <br>
 
 ## Change log 
 
