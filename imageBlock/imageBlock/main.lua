@@ -5,7 +5,7 @@
 	///////////////////////////////////
 
 	Made by P_2the_inni  
-	Version 1.1.0
+	Version 1.0.0
 	Available at: https://github.com/P-2the-inni/Image-To-Starbound-Converter
 	
 	If u get missing dependancy errors on the .exe, try installing `Microsoft Visual C++ Redistributable`, this shouldn't be needed but idk
@@ -102,7 +102,7 @@ function uninit() end
 
 local firstTick = true
 
-function update(dt, fireMode)
+function update(_, fireMode)
 
 	if backBroken then return end
 	
@@ -122,7 +122,7 @@ function update(dt, fireMode)
 		return;
 	end	
 	
-	delay = math.max(0, delay - dt)
+	delay = math.max(0, delay - (1/60))
 	
 	local aimAngle, aimDirection = activeItem.aimAngleAndDirection(0, activeItem.ownerAimPosition())
 	activeItem.setArmAngle(aimAngle)
